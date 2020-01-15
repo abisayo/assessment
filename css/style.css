@@ -1,0 +1,343 @@
+body{
+	margin: auto;
+	background-color: rgb(248, 248, 248);
+}
+.header {
+	background: #000000;
+	padding: 15px 50px 15px 50px;
+}
+.nav {
+	float: right;
+	margin-top: -10px;
+}
+.nav ul li {
+	font-family: Circular Std black;
+	text-decoration: none;
+	display: inline-block;
+}
+.nav ul li a {
+	text-decoration: none;
+	margin-right: 100px;
+	font-family: Circular Std black;
+	font-size: 13px;
+	color: #ffffff;
+}
+.nav ul li a:active, a:visited {
+	background-color: green;
+	border-radius: 2px;
+	color: #ffffff;
+	padding: 10px 10px;
+	/*text-align: center;*/
+}
+.one {
+	font-family: Circular Std black;
+	font-size: 35px;
+	line-height: 30px;
+}
+.two {
+	font-family: Circular Std black;
+}
+.container {
+	padding: 20px 50px 5px 50px;
+}
+.sideone {
+	float: left;
+	width: 50%;
+	padding-top: 90px;
+}
+.sidetwo {
+	float: left;
+	width: 50%;
+}
+.social {
+	margin-left: -40px;
+}
+.social ul li {
+	text-decoration: none;
+	display: inline-block;
+}
+.social ul li img {
+	margin-right: 15px;
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.about {
+	background-color: #ffffff;
+	margin-top: 50px;
+	padding: 20px 30px 70px 30px;
+}
+.about h1, h2 {
+	font-family: Circular Std black;
+	text-align: center;
+}
+.about h1 {
+	margin-bottom: 50px;
+}
+.about p {
+	font-family: Circular Std book;
+	text-align: center;
+	font-size: 15px;
+	line-height: 35px;
+}
+.colone {
+	float: left;
+	width: 25%;
+	padding: 20px 40px 20px 40px;
+	border: 1px solid rgb(248, 248, 248);
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-right: 30px;
+}
+.coltwo {
+	float: left;
+	width: 25%;
+	padding: 20px 40px 55px 40px;
+	border: 1px solid rgb(248, 248, 248);
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-right: 30px;
+}
+.colthree {
+	float: left;
+	width: 25%;
+	padding: 20px 40px 55px 40px;
+	border: 1px solid rgb(248, 248, 248);
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.about h3 {
+	font-family: Circular Std black;
+	text-align: center;
+	font-size: 25px;
+	line-height: 45px;
+	margin: 50px 170px 10px 170px;
+}
+.about h4 {
+	font-family: Circular Std book;
+	text-align: center;
+	font-size: 18px;
+	line-height: 35px;
+	margin: 30px 380px 20px 380px;
+	color: gray;
+}
+hr {
+	position: relative;
+	width: 10%;
+	border-radius: 4px;
+	border: 4px solid rgb(220, 220, 220);
+}
+
+.project {
+	background-color: #003333;
+	margin-top: 0px;
+	padding: 40px 50px 50px 50px;
+}
+.project h1 {
+	font-family: Circular Std black;
+	text-align: center;
+	color: #ffffff;
+}
+.project h5 {
+	font-family: Circular Std black;
+	text-align: center;
+	color: gray;
+	font-size: 12px;
+	line-height: 28px;
+	margin: 0px 330px 0px 330px;
+}
+.projectone {
+	float: left;
+	width: 30%;
+	padding: 250px 0px 0px 0px;
+	margin-right: 55px;
+}
+.projectone h2 {
+	text-align: left;
+	color: #ffffff;
+	font-family: Circular Std book;
+	line-height: 35px;
+	font-size: 23px;
+}
+.projectone p {
+	text-align: left;
+	color: #ffffff;
+	font-family: Circular Std book;
+	font-size: 13px;
+	line-height: 28px;
+}
+.projectone a {
+	color: #99cc33;
+	font-family: Circular Std book;
+}
+.projecttwo {
+	float: left;
+	width: 30%;
+	padding: 100px 0px 0px 0px;
+	margin-right: 55px;
+}
+.projecttwo h2 {
+	text-align: left;
+	color: #ffffff;
+	font-family: Circular Std book;
+	line-height: 35px;
+	font-size: 27px;
+}
+.projecttwo p {
+	text-align: left;
+	color: #ffffff;
+	font-family: Circular Std book;
+	font-size: 16px;
+	line-height: 35px;
+}
+.projecttwo a {
+	color: #99cc33;
+	font-family: Circular Std book;
+}
+.projectthree {
+	float: left;
+	width: 30%;
+	padding: 250px 0px 0px 0px;
+}
+.projectthree h2 {
+	text-align: left;
+	color: #ffffff;
+	font-family: Circular Std book;
+	line-height: 35px;
+	font-size: 23px;
+}
+.projectthree p {
+	text-align: left;
+	color: #ffffff;
+	font-family: Circular Std book;
+	font-size: 13px;
+	line-height: 28px;
+}
+.projectthree a {
+	color: #99cc33;
+	font-family: Circular Std book;
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.event {
+	background-color: #ffffff;
+	margin-top: 0px;
+	padding: 40px 50px 15px 50px;
+}
+.event h1 {
+	font-family: Circular Std black;
+	text-align: center;
+	line-height: 45px;
+	font-size: 40px;
+	margin-bottom: 80px;
+}
+.eventone {
+	padding: 20px 50px 20px 50px;
+}
+.evesec {
+	border: 1px solid rgb(248, 248, 248);
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 50px;
+}
+.eventone img {
+	float: left;
+	width: 15%;
+	margin-right: 100px;
+	margin-top: 25px;
+}
+.eventone .typo {
+	float: left;
+	width: 40%;
+	margin-right: 220px;
+}
+.eventone .typo h2 {
+	font-family: Circular Std book;
+	text-align: left;
+	line-height: 40px;
+	font-size: 30px;
+}
+.eventone .typo p {
+	font-family: Circular Std book;
+	text-align: left;
+	line-height: 30px;
+	font-size: 13px;
+	margin-top: -15px;
+}
+.eventone .typo h5 {
+	font-family: Circular Std book;
+	text-align: left;
+	color: #99cc33;
+	line-height: 30px;
+	font-size: 17px;
+	margin-top: -5px;
+}
+.eventone button {
+	float: left;
+	width: 15%;
+	margin-top: 80px;
+	font-family: Circular Std book;
+	background-color: #99cc33;
+	color: #ffffff;
+	padding: 10px 0px 10px 0px;
+	border-radius: 7px;
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contact {
+	padding: 50px 50px 20px 50px;
+}
+.contact h1 {
+	font-family: Circular Std black;
+	text-align: center;
+	font-size: 40px;
+	line-height: 45px;
+}
+.inner {
+	background-color: #ffffff;
+	padding: 70px 80px 50px 80px;
+	border-radius: 5px;
+}
+.inner label {
+	font-family: Circular Std book;
+	text-align: left;
+	font-size: 20px;
+	line-height: 35px;
+	color: #99cc33;
+}
+.inner input {
+	width: 600px;
+	border: none;
+	border-bottom: 1px solid black;
+	font-size: 20px;
+	line-height: 40px;
+	font-family: Circular Std book;
+	color: #000000;
+}
+.inner textarea {
+	width: 600px;
+	border: none;
+	border-bottom: 1px solid black;
+	font-size: 20px;
+	line-height: 40px;
+	font-family: Circular Std book;
+	color: #000000;
+}
+.nest1 {
+	margin-top: 60px;
+}

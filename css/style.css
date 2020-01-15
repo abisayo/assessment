@@ -22,7 +22,7 @@ body{
 	font-size: 13px;
 	color: #ffffff;
 }
-.nav ul li a:active, a:visited {
+.nav ul li a:visited {
 	background-color: green;
 	border-radius: 2px;
 	color: #ffffff;
@@ -313,6 +313,14 @@ section:after {
 	padding: 70px 80px 50px 80px;
 	border-radius: 5px;
 }
+.consec {
+	float: left;
+	width: 40%;
+	margin-right: 200px;
+}
+.consec2 {
+	padding: 50px 0px 0px 0px
+}
 .inner label {
 	font-family: Circular Std book;
 	text-align: left;
@@ -321,7 +329,7 @@ section:after {
 	color: #99cc33;
 }
 .inner input {
-	width: 600px;
+	width: 500px;
 	border: none;
 	border-bottom: 1px solid black;
 	font-size: 20px;
@@ -330,7 +338,7 @@ section:after {
 	color: #000000;
 }
 .inner textarea {
-	width: 600px;
+	width: 500px;
 	border: none;
 	border-bottom: 1px solid black;
 	font-size: 20px;
@@ -340,4 +348,44 @@ section:after {
 }
 .nest1 {
 	margin-top: 60px;
+}
+.inner button {
+	width: 110%;
+	margin-top: 20px;
+	font-family: Circular Std book;
+	background-color: #99cc33;
+	color: #ffffff;
+	padding: 10px 0px 10px 0px;
+	border-radius: 7px;
+}
+.consec2 span {
+	font-family: Circular Std book;
+	color: #000000;
+	margin: -10px 0px 0px 20px;
+}
+.details2 {
+	margin-top: 110px;
+}
+.details3 {
+	margin-top: 110px;
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+	padding: 40px 0px 100px 90px;
+}
+footer span {
+	font-family: Circular Std book;
+	color: #000000;
+	font-size: 14px;
+	margin: 15px 0px -10px 20px;
+	position: absolute;
+}
+footer .spright {
+	float: right;
+	margin-top: 20px;
 }
